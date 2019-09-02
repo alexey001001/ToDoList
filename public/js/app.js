@@ -66,7 +66,6 @@ document.querySelector(".add_task").addEventListener('click', (e)=>{
 *
 */
 tasks_wrapper.addEventListener('change', (e)=>{ 
-	/*если поле ввода задачи пустое, то не производим добавление*/
 	if (e.target.classList.contains('newTask')) {
 		e.target.classList.remove('newTask')
 		let task_param = {
